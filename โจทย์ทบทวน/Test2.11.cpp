@@ -2,7 +2,8 @@
 
 int main()
 
-{   long int x,y,z=9;
+{   int x,y ;
+	int z=9 ;
 	int sum =0;
 	printf( "User Input :" );
 	scanf( "%ld", &x );
@@ -14,3 +15,4 @@ int main()
 	}
 	printf( "\n Sum = %d \n", sum );
 }  
+
