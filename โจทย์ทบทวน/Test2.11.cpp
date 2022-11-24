@@ -13,6 +13,6 @@ int main()
 	  printf( "%ld ", z );
 	  z=z*10+9;
 	}
-	printf( "\n Sum = %d \n", sum );
+	printf( " Sum = %d \n", sum );
 }  
 
