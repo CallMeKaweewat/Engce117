@@ -35,7 +35,7 @@ void ShowAll( struct studentNode **walk ) {
     }
 }//end func
 
-void InsNode( struct studentNode **nowNode, char n[], int a, char s, float g ){ // ins node
+void InsNode( struct studentNode **nowNode, char n[], int a, char s, float g ){
     struct studentNode *newNode = new studentNode;
     strcpy(newNode->name, n);
     newNode->age = a;
